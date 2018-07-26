@@ -1,0 +1,137 @@
+/* First Section */
+#main{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/bg-section-2.jpg'); 
+}
+#blogRightSideBar{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-family: "Courgette";
+}
+#blogRightSideBar h2{
+    font-size: 80px;
+}
+
+/* Second Section */
+#second{
+    width: 100%;
+    height: 600px;
+    background: white;
+}
+#steakPhoto img{
+    width: 100%;
+    border-radius: 2%;
+    display: inline-block;
+    margin-top: 30px;
+}
+.calendar{
+    width: 50px;
+}
+.calendar img{
+    width: 100%;
+}
+
+/* Third Section */
+#third{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+#third img{
+    width: 100%;
+}
+.foodWidget{
+    margin-top: 20px;
+}
+.foodWidget img{
+    width: 100%;
+    border-radius: 5%;
+}
+#recentComments{
+    margin-top: 80px;
+}
+
+/* Fourth Section */
+#fourth{
+    width: 100%;
+    height: 800px;
+}
+.johnSmith{
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.johnSmith p{
+    color:black;
+}
+.tagCloud{
+    margin-top: 100px;
+}
+.tagButtons{
+    margin-top: 10px;
+}
+.tagButtons button{
+    background-color: #1f1f1f;
+    border: none;
+}
+
+/* Fifth Section */
+#fifth{
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+audio{
+    width: 100%;
+}
+
+/* Sixth Section */
+#sixth{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+/* Seventh Section */
+#seventh{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+#afterAudioPost::after{
+    content: "";
+    width: 80%;
+    border-bottom: dotted 1px black;
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    z-index:2;
+}
+
+
+/*Eighth Section */
+#eighth{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+#quote::after{
+    content: "";
+    width: 80%;
+    border-bottom: dotted 1px black;
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    z-index:2;
+}
+
+/* Nineth Section Will be here */
+
+
+/* Tenth Section */
+#tenth{
+    width: 100%;
+    height: 200px;
+    background: white;
+}

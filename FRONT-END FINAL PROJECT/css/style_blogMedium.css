@@ -1,0 +1,138 @@
+/* First Section */
+#main{
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/bg-section-2.jpg')
+}
+#blogMediumSide{
+    color: white;
+    font-family: 'Courgette';
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#blogMediumSide h2{
+    font-size: 70px;
+}
+#blogMediumSide h4{
+    font-size: 22px;
+    margin-left: 30%;
+}
+
+/* Second Section */
+#second{
+    width: 100%;
+    height: 300px;
+}
+.popularPost{
+    height: 80px;
+}
+.popularPosts img{
+    width: 100%;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.popularPosts::after{
+    content: "";
+    width: 200px;
+    border-bottom: dotted 1px black;
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    z-index: 2;
+}
+.popularP{
+    margin-top: 10px;
+}
+.centerSteak img{
+    width: 100%;
+    border-radius: 5%;
+}
+.december img{
+    width: 70px;
+}
+
+/* Third Section */
+#third{
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+
+/* Fourth Section */
+#fourth{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+.foodWidget img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+/* Fifth Section */
+#fifth{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+.postSlider{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+}
+.tagButtons button{
+    background-color: #1f1f1f;
+    border: none;
+}
+.tagButtons button:focus{
+    outline: none;
+}
+.tagButtons button:hover{
+    cursor: pointer;
+}
+
+/* Sixth Section */
+#sixth{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+.soundCloudBox{
+    width: 250px;
+    height: 150px;
+    background: rgb(212, 210, 210);
+    border: 1px solid whitesmoke;
+}
+.soundCloudBox p{
+    text-align: center;
+}
+#soundCloud{
+    background: white;
+    border: none;
+    position: absolute;
+    left: 20%;
+}
+#soundCloud:focus{
+    outline: none;
+}
+
+/* Seventh Section */
+#seventh{
+    width: 100%;
+    height: 400px;
+    background: white;
+}
+.centerWcalendar{
+    position: absolute;
+    left:30%;   
+}
+
+/* Eighth Section */
+#eighth{
+    width: 100%;
+    height: 300px;
+    background: white;
+}

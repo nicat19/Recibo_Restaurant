@@ -1,0 +1,281 @@
+/* First Section */
+#main{
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/bg-section-2.jpg');
+    position: relative;
+}
+#cartIcon{
+    margin-left: 100px;
+}
+#searchIcon{
+    margin-left: 30px;
+}
+#blogchild{
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.fa-clock{
+    margin-left: 100px;
+}
+.iconClass{
+    margin-left: 200px;
+}
+.fa-envelope{
+    margin-left: 50px;
+}
+.fa-phone{
+    margin-left: 30px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    color:white ;
+    z-index: 1000;
+}
+.social-icon{
+  display: inline-block;    
+}
+.social-icon>img{
+    color: black;
+}
+.wrapper{
+    width: 95%;
+    background: black !important;
+    position: absolute;
+    height: 50px;
+}
+.mySlider{
+    position: absolute;
+    top: 0;
+}
+.col-md-9>ul>li{
+    float: left;
+    color: wheat;
+    margin-left: 50px;
+}
+.bottomSlide{
+    color: white;
+    position: absolute;
+    top: 650px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 2%;
+    margin-left: 100px;
+    background: orange;
+    padding: 40px;
+    border-color: #dddddd;
+}
+.bottomElems{
+    padding: 10px;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+}
+.col-md-4>.readMore{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+ }
+ .dropdown{
+    list-style-type: none;
+    position: absolute;
+    -webkit-padding-start: 0;
+}
+.dropdown li{
+    -webkit-padding-start: 0;
+    color: white;
+}
+.menuMixedText h2{
+    position: absolute;
+    color: white;
+    left: 30%;
+    top: 100px;
+    font-family: "Courgette";
+    font-size: 80px;
+
+}
+
+/* Second Section */
+#second{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+#appetizer{
+    font-family:'Courgette';
+    font-size:35px; 
+}
+#appetizer::after{
+    content: "";
+    width: 200px;
+    border-bottom: double 4px black;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    z-index: 1;
+}
+.appetizerrTypes{
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: black;
+}
+.appetizerrTypes::after{
+    content: "";
+    width: 300px;
+    border-bottom: dotted 4px black;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    z-index: 1;
+}
+.prices{
+    width: 10%;
+    height: 300px;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    font-size: 25px;
+    line-height: 50px;
+    color: #eec118;
+    font-family: "Courgette";
+    margin-top: 20px;
+}
+
+/* Third section */
+#third{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/bg-section-6.jpg');
+}
+#thirdH2{
+    font-family: "Courgette";
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+}
+#thirdP{
+    font-family: "Courgette";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Fourth Section */
+#fourth{
+    width: 100%;
+    height: 900px;
+    background: mediumspringgreen;
+}
+.brunchPics>img{
+    width: 100%;
+}
+.secondBrunchPics>img{
+    width: 100%;
+}
+.bottomPics{
+    margin-left:20px;
+}
+.brunchFoods:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition: transform .2s;
+}
+
+/* Fifth Section */
+#fifth{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/bg-section-9.jpg');
+}
+#fifthH2{
+    font-family: "Courgette";
+    font-size: 120px;
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+#fifthP{
+    font-family: "Courgette";
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+
+/* Sixth Section */
+.dinnerPics{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+.dinnerPics>img{
+    width: 100%;
+}
+.dinnerPics:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.layout>h2{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-family: "Open Sans";
+}
+.layout>span{
+    color: white;
+    margin-left: 30%;
+}
+.layout>p{
+    margin-top: 5%;
+    margin-left: 40%; 
+}
+
+/* Seventh Section Is same with Sixth */
+
+#seventh{
+    background: white;
+}
+/* Eighth Section */
+#eighth{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/bg-section-7.jpg');
+}
+#eigthH2{
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    font-family: "Courgette";
+    font-size: 120px;
+}
+/* Nineth Section */
+#nineth{
+    width: 100%;
+    height: 500px;
+}
+.ninethMiddle{
+    margin-left: 80px;
+}
+.ninethMiddle>h2{
+    font-size: 18px;
+}
+.foodCircles{
+    margin-top: 20px;
+}
+#cookiesCream{
+    border: 3px solid orange;
+}

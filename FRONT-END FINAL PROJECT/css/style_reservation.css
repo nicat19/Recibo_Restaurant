@@ -1,0 +1,66 @@
+/* First Section */
+#main{
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/bg-section-19.jpg');
+    
+
+}
+/* Second Section */ 
+#second{
+    width: 100%;
+    height: 350px;
+    
+}
+.reservationH2{
+    font-family: "Open Sans";
+    font-size: 30px;
+    color: black;
+}
+/* Reservation Form Section  */
+#ReservationForm{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 30%;
+
+}
+.input input{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 3%;
+}
+#SubmitBtn{
+    margin-top: 30px;
+    width:100%;
+    height:50px; 
+    background:#222222;
+    border:none;
+    cursor: pointer;
+}
+#SubmitBtn a{
+    color: white;
+    
+}
+#inputNotes input{
+    width: 240%;
+    height: 150px;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 5px;
+}
+
+.fail{
+    display: none;
+}
+.fail p{
+    text-align: center;
+    margin-top: 5%;
+    color: red;
+    font-family: "Open Sans"; 
+}
+
+
+
